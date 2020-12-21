@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <body>
         <style>
@@ -13,7 +14,19 @@
               margin: 4px 2px;
               cursor: pointer;
             }
+            .dollar {
+                color: green;
+                font-size: 40px;
+            }
             </style>
-            <button class="button" type="button"> Click for doudou Hassan </button>
+            <button class="button" onclick="myFunction()" type="button"> Click me for doudou Hassan </button>
+            <div class="dollar">
+            <p id="demo"></p>
+            <script>
+                function myFunction() {
+                document.getElementById("demo").innerHTML = "$$$$$$$$$$$$";
+                }
+            </script>
+            </div>
     </body>
 </html>
